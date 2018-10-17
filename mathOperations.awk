@@ -7,8 +7,8 @@ BEGIN{
 
   while(1){
     srand()  
-    num1=int(rand()*10)
-    num2=int(rand()*10)
+    num1=int(rand()*100)
+    num2=int(rand()*100)
 
     operator[1]="+"
     operator[2]="-"
